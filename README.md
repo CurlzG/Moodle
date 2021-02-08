@@ -1,5 +1,4 @@
 # Moodle_Reports
-<h1> Moodle Reports </h1>
 <b> These reports were designed for admins to help catagorize students </b>
 <br>
 <h4> Active User Report </h4>
