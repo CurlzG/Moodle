@@ -1,0 +1,60 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#cow1').on('click', function(e) {
+            $('#popup').offset({
+                top: e.pageY - 25,
+                left: e.pageX
+            }).fadeIn();
+            $('#popup').css({
+                "background-color": "white",
+                "width": "100px",
+                "height": "24px"
+            });
+            $('#popup').text("Cows Head");
+            e.preventDefault();
+        });
+        $('#cow2').on('click', function(e) {
+            $('#popup').offset({
+                top: e.pageY - 25,
+                left: e.pageX
+            }).fadeIn();
+            $('#popup').css({
+                "background-color": "white",
+                "width": "100px",
+                "height": "24px"
+            });
+            $('#popup').text("Cows Head");
+            e.preventDefault();
+        });
+        $('#cow3').on('click', function(e) {
+            $('#popup').offset({
+                top: e.pageY - 25,
+                left: e.pageX
+            }).fadeIn();
+            $('#popup').css({
+                "background-color": "white",
+                "width": "100px",
+                "height": "24px"
+            });
+            $('#popup').text("Cows Head");
+            e.preventDefault();
+        });
+    });
+</script>
+
+
+<h4 style="font-size: large;">Can You Identify Parts Of A Cow </h4>
+<p> In this image behind, we have highlighted different parts of cow to help you learn, by clicking the mouse over the images you can learn different parts of the cows </p>
+
+<div style="position: relative; width: 100%; height:100%;">
+    <div id="popup" style="position: absolute;z-index: 100;">Possible Answers Cow</div><br>
+    <img src="https://www.woodtraining.online/draftfile.php/36/user/draft/124381539/close-up-photography-of-cows-735974.jpg" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" usemap="#planetmap" width="709" height="473"><br>
+    <p></p>
+    <map name="planetmap">
+          <area shape="rect" id="cow1" coords="82,82,175,241" href="#" alt="Lucy Head">
+   <area shape="rect" id="cow2" coords="514,206,573,308" href="#" alt="Lucy Head">
+  <area shape="rect" id="cow3" coords="349,182,422,290" href="#" alt="Lucy Head">
+      </map>
+    <p></p>
+</div>
